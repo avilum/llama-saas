@@ -1,14 +1,15 @@
 # llama-saas
-A real-time client and server for LLaMA (Large Language Model Meta AI).<br>
-The server is written in Go.
-The client is written in python using requests with response streaming (the response is streamed to the client in real time).
-I personally used the `7B/` model (~4.8G quantized, ~13G in full percision)
+A real-time client and server for LLaMA.<br>
+- 🚀 Runs on MacBook Pro and PCs, with no need for GPU 🚀<br>
+- The server is written in Go.
+- The client is written in python using requests with response streaming in real time.
+I personally used the `7B/` model which is ~4.8G when quantized to 4 bit, or ~13G in full precision.
 
 # Examples
-- Nice one: 
+- Nice example: elaborate about "Github"  
 <img src="llama-server-example-1.gif">
 
-- Biased one:
+- Biased example: elaborate about "Donald Trump"  
 <img src="llama-server-example-2.gif">
 
 ### Get LLaMA Pretrained Checkpoints
