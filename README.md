@@ -1,6 +1,6 @@
 # llama-saas
-A real-time client and server for LLaMA (Large Language Model Meta AI) that can run on ANYWHERE.<br>
-The server is minimal and written in Go, while the client is using python's requests with streaming.<br>
+A real-time client and server for LLaMA (Large Language Model Meta AI) that can run ANYWHERE.<br>
+The server is minimal and written in Go, while the client is written in python<br>
 I personally used the 7B model (~4.8G quantized, ~13G in full percision)
 
 # Examples
