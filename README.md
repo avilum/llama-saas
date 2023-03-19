@@ -5,7 +5,7 @@ LLaMA <a href="https://ai.facebook.com/blog/large-language-model-llama-meta-ai/"
 
 ### Get LLaMA Pretrained Checkpoints
 1. Apply for <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Official Access</a>. You will get a unique download link once you are approved.
-2. Alternatively, without any gurantee - You can use download it via https://github.com/shawwn/llama-dl (Not Recommended).
+2. Alternatively, without any gurantee - You can try downloading it from https://github.com/shawwn/llama-dl (Not Recommended, haven't tried it).
 
 # How to use
 Assuming you have the LLaMA checkpoints
@@ -20,6 +20,11 @@ go build
 ```shell
 python3 llama.py
 ```
+
+# Examples
+<img src="llama-server-example-2.gif">
+<img src="llama-server-example-1.gif">
+
 
 ## References
 1. https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
