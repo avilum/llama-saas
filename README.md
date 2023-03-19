@@ -1,9 +1,10 @@
 # llama-saas
 A real-time client and server for LLaMA.<br>
-- 🚀 Runs on MacBook Pro and PCs, with no need for GPU 🚀<br>
+- 🚀 Runs on any CPU machine, with no need for GPU 🚀<br>
 - The server is written in Go.
 - The client is written in python using requests with response streaming in real time.
-I personally used the `7B/` model which is ~4.8G when quantized to 4 bit, or ~13G in full precision.
+
+I personally used the smallest `7B/` model on an Intel PC / Macbook Pro, which is ~4.8G when quantized to 4 bit, or ~13G in full precision.
 
 # Examples
 - Nice example: elaborate about "Github"  
